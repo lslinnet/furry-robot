@@ -1,0 +1,27 @@
+{
+  "name": "furry-robot",
+  "version": "1.0.0",
+  "description": "A new thingy, coming once it is there.",
+  "main": "app.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "debug": "DEBUG=express:* node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lslinnet/furry-robot.git"
+  },
+  "author": "Lars Stadel Linnet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lslinnet/furry-robot/issues"
+  },
+  "homepage": "https://github.com/lslinnet/furry-robot",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
